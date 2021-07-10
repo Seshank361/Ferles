@@ -11,7 +11,7 @@ from tqdm import tqdm
 import random
 import ipdb
 
-abs_path = '/home/ferles/medusa/src/'
+abs_path = '/home/seshank_a/Baselines/Ferles/Is-Out-of-Distribution-Detection-Solved/src/'
 global_seed = 1
 torch.backends.cudnn.deterministic = True
 random.seed(global_seed)
