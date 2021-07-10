@@ -1,0 +1,13 @@
+{
+  "training":{
+    "model": "DenseNet",
+    "depth": "100",
+    "pretrained": "True",
+    "freeze": "False",
+    "resolutionIncrease": "False",
+    "out_classes": 555,
+    "checkpoint": "DenseNabirds",
+    "train_pickle": "train_indices_nabirds.pickle",
+    "test_pickle": "val_indices_nabirds.pickle"
+  }
+}

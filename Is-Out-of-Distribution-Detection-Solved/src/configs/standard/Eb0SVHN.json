@@ -1,0 +1,13 @@
+{
+  "training":{
+    "model": "EfficientNet",
+    "depth": "0",
+    "pretrained": "True",
+    "freeze": "False",
+    "resolutionIncrease": "False",
+    "out_classes": 10,
+    "checkpoint": "eb0SVHN",
+    "train_pickle": "train_indices_svhn.pickle",
+    "test_pickle": "val_indices_svhn.pickle"
+  }
+}

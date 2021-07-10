@@ -1,0 +1,12 @@
+torch
+torchvision
+numpy
+sklearn
+efficientnet_pytorch
+wandb
+tqdm
+ipdb
+matplotlib
+imbalanced-learn
+imagesize
+pretrainedmodels
