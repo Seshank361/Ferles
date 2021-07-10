@@ -28,7 +28,7 @@ def train(args):
 
     flag = False
     if training_configurations.train_pickle != 'None' and training_configurations.test_pickle != 'None':
-        pickle_files = [training_configurations.train_pickle, training_configurations.test_pickle]
+        pickle_files = ["pickle_files/" + training_configurations.train_pickle,"pickle_files/" +  training_configurations.test_pickle]
         flag = True
 
     dataset = args.dataset.lower()
