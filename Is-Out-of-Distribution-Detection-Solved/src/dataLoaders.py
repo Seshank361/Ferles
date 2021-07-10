@@ -512,7 +512,7 @@ def _get_dataset(dataset, transforms, test=False):
         dogs_root = './DatasetsDogs/Stanford/'
         birds_root = './DatasetsBirds/nabirds/'
     else:
-        root = '/home/ferles/data'
+        root = '/home/seshank_a/Baselines/Ferles/Is-Out-of-Distribution-Detection-Solved/src/Datasets'
         tiny_imagenet_cifar10_root = '/home/ferles/tiny-imagenet-200/Cifar10'
         tiny_imagenet_cifar100_root = '/home/ferles/tiny-imagenet-200/Cifar100'
         dogs_root = '/home/ferles/Dogs/Stanford/'
